@@ -1,0 +1,378 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+}
+#nav1{
+  background-color: #b62020;
+}
+#nav2{
+  background-color: #fd9eb2;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+#nav1 a:hover {
+  background-color: #fd9eb2;
+}
+
+#nav2 a:hover {
+  background-color: #b62020;
+}
+section {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+section h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  font-style: italic;
+}
+section p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-size:large;
+  text-align: justify;
+}
+#contact{
+  background-color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.lipstick {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  background-color: #fff;
+  /*padding: 20px;*/
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+}
+.lipstick img {
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
+.lipstick .color {
+  display: inline-block;
+  width : 180px;
+  padding-left: 20px;
+  height: 110px;   
+}
+.contact1{
+  display:inline-block;
+  background-color: #fff; 
+  width: auto;
+  height: auto;
+  padding-bottom: 0; 
+  margin-bottom: 0; 
+}
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel_image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel_track-container{
+  background: lightpink;
+  height: 100%;
+  position: relative;
+}
+
+.carousel_track{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carousel_slide{
+  position: absolute;
+  top: 0;
+  bottom: 0; 
+  width: 100%;
+}
+
+.carousel_button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel_button--left{
+  left: -40px;
+}
+
+.carousel_button--right{
+  left: -40px;
+}
+
+.carousel_button img{
+  width: 12px;
+}
+
+.carousel_nav{
+  background: pink;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.carousel_indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 12px;
+}
+.carousel_indicator.current-slide{
+  background: rgba(0, 0, 0, 0.75);
+}
+#gold_champagne{
+  background-color: #e69071 ;
+}
+#summer_sunset{
+  background-color: #d75f6b;
+}
+#coral{
+  background-color: #c96541;
+}
+#fly_girl{
+  background-color: #a83733;
+}
+#beige_champagne{
+  background-color: #b1756d;
+}
+#dawn_rising{
+  background-color: #ae6a5f;
+}
+#burnt_orange{
+  background-color: #a93a26;
+}
+#persimmon{
+  background-color: #9b4b34;
+}
+#bombshell{
+  background-color: #f2a394;
+}
+#precious_topaz{
+  background-color: #965a5a;
+}
+#coral_ice{
+  background-color: #fc6b4c;
+}
+#cappuccino{
+  background-color: #c49687;
+}
+#bronze_shimmer{
+  background-color: #b07f47;
+}
+#moca{
+  background-color: #964b34;
+}
+#nutmeg{
+  background-color: #88443b;
+}
+#samon{
+  background-color: #ff2e33;
+}
+#bravo{
+  background-color: #f4ab9c;
+}
+#honey_rose{
+  background-color: #c2564c;
+}
+#shelala{
+  background-color: #d31b13;
+}
+#mojave{
+  background-color: #8a382d;
+}
+#apple_cider{
+  background-color: #cc7b78;
+}
+#plum_pretty{
+  background-color: #bb6a57;
+}
+#coral_reef{
+  background-color: #c0433d ;
+}
+#cocoa{
+  background-color: #71362e;
+}
+#kiss_me_katie{
+  background-color: #e58b8d;
+}
+#spice_ice{
+  background-color: #bd6b53;
+}
+#redwood{
+  background-color: #a03c3c;
+}
+#luv_it{
+  background-color: #dc857c;
+}
+#caramel_latte{
+  background-color: #b86448;
+}
+#red_cherry{
+  background-color: #a5322f;
+}
+#heartbreaker{
+  background-color: #e26966;
+}
+#peach{
+  background-color: #c47348;
+}
+#brick{
+  background-color: #b13235;
+}
+#nude{
+  background-color: #9b7c67;
+}
+#first_love{
+  background-color: #af7661;
+}
+#pink_champagne{
+  background-color: #be8d9e;
+}
+#praline_rose{
+  background-color: #b26a6c;
+}
+#kelly_krush{
+  background-color: #c66c82;
+}
+#mauve_ice{
+  background-color: #bc768f;
+}
+#army_pink{
+  background-color: #b26e87;
+}
+#aussie_rose{
+  background-color: #c96d7a;
+}
+#fleur_de_lisa{
+  background-color: #d35c86;
+}
+#rose_ice{
+  background-color: #cb6984;
+}
+#caramel_apple{
+  background-color: #c65962;
+}
+#fire_ice{
+  background-color: #a94b4f;
+}
+#sheer_pink{
+  background-color: #d63f60;
+}
+#pink_ice{
+  background-color: #fc6197;
+}
+#party_pink{
+  background-color: #ff3d85;
+}
+#kathy_kisses{
+  background-color: #c04871;
+}
+#plumeria{
+  background-color: #c43a57;
+}
+#fuscia{
+  background-color: #bf3550;
+}
+#kiss_for_a_cause{
+  background-color: #d61e66;
+}
+#rhubarb{
+  background-color: #bc2949;
+}
+#strawberry_shortcake{
+  background-color: #bb283e;
+}
+#pomegranate{
+  background-color: #cc3a48;
+}
+#cranberry{
+  background-color: #cb141a;
+}
+#blu_red{
+  background-color: #c00905;
+}
+#crimson_red{
+  background-color: #b22b33;
+}
+#dark_pink{
+  background-color: #963344;
+}
+#roseberry{
+  background-color: #a74254;
+}
+#b_ruby{
+  background-color: #aa4767;
+}
+#neutral{
+  background-color: #9c214c;
+}
+#lexie_bear_y{
+  background-color: #892152;
+}
+#purple_reign{
+  background-color: #a1467f;
+}
+#berry{
+  background-color: #843153;
+}
+#currant{
+  background-color: #8e1647;
+}
+#plum{
+  background-color: #88033c;
+}
+#napa{
+  background-color: #75173b;
+}
+#mulled_wine{
+  background-color: #68052f;
+}
+#dusty_rose{
+  background-color: #78444c;
+}
+#sheer_berry{
+  background-color: #822b2e;
+}
+#raisin{
+  background-color: #7e2132;
+}
+#blackberry{
+  background-color: #33262b;
+}
